@@ -1,0 +1,170 @@
+{
+  "gsm8k": {
+    "zero_shot_cot": {
+      "n_pairs": 150,
+      "accuracy_standard": 0.54,
+      "accuracy_cot": 0.9467,
+      "delta_accuracy": 0.4067,
+      "mcnemar": {
+        "b": 63,
+        "c": 2,
+        "statistic": 55.3846,
+        "p_value": 0.0,
+        "significant": true,
+        "bonferroni_significant": true
+      },
+      "mean_tokens_standard": 17.0,
+      "mean_tokens_cot": 203.5,
+      "delta_tokens": 186.5,
+      "wilcoxon_stat": 0.0,
+      "wilcoxon_p": 0.0,
+      "token_cohen_d": 3.894
+    },
+    "few_shot_cot": {
+      "n_pairs": 150,
+      "accuracy_standard": 0.54,
+      "accuracy_cot": 0.9467,
+      "delta_accuracy": 0.4067,
+      "mcnemar": {
+        "b": 61,
+        "c": 0,
+        "statistic": 59.0164,
+        "p_value": 0.0,
+        "significant": true,
+        "bonferroni_significant": true
+      },
+      "mean_tokens_standard": 17.0,
+      "mean_tokens_cot": 146.3,
+      "delta_tokens": 129.2,
+      "wilcoxon_stat": 0.0,
+      "wilcoxon_p": 0.0,
+      "token_cohen_d": 2.504
+    }
+  },
+  "svamp": {
+    "zero_shot_cot": {
+      "n_pairs": 150,
+      "accuracy_standard": 0.9,
+      "accuracy_cot": 0.88,
+      "delta_accuracy": -0.02,
+      "mcnemar": {
+        "b": 7,
+        "c": 10,
+        "statistic": 0.2353,
+        "p_value": 0.627626,
+        "significant": false,
+        "bonferroni_significant": false
+      },
+      "mean_tokens_standard": 8.3,
+      "mean_tokens_cot": 161.6,
+      "delta_tokens": 153.2,
+      "wilcoxon_stat": 0.0,
+      "wilcoxon_p": 0.0,
+      "token_cohen_d": 4.141
+    },
+    "few_shot_cot": {
+      "n_pairs": 150,
+      "accuracy_standard": 0.9,
+      "accuracy_cot": 0.9333,
+      "delta_accuracy": 0.0333,
+      "mcnemar": {
+        "b": 7,
+        "c": 2,
+        "statistic": 1.7778,
+        "p_value": 0.182422,
+        "significant": false,
+        "bonferroni_significant": false
+      },
+      "mean_tokens_standard": 8.3,
+      "mean_tokens_cot": 80.1,
+      "delta_tokens": 71.8,
+      "wilcoxon_stat": 0.0,
+      "wilcoxon_p": 0.0,
+      "token_cohen_d": 2.305
+    }
+  },
+  "commonsenseqa": {
+    "zero_shot_cot": {
+      "n_pairs": 150,
+      "accuracy_standard": 0.3533,
+      "accuracy_cot": 0.8067,
+      "delta_accuracy": 0.4533,
+      "mcnemar": {
+        "b": 72,
+        "c": 4,
+        "statistic": 59.0658,
+        "p_value": 0.0,
+        "significant": true,
+        "bonferroni_significant": true
+      },
+      "mean_tokens_standard": 112.4,
+      "mean_tokens_cot": 242.0,
+      "delta_tokens": 129.6,
+      "wilcoxon_stat": 16.0,
+      "wilcoxon_p": 0.0,
+      "token_cohen_d": 3.385
+    },
+    "few_shot_cot": {
+      "n_pairs": 150,
+      "accuracy_standard": 0.3533,
+      "accuracy_cot": 0.8667,
+      "delta_accuracy": 0.5133,
+      "mcnemar": {
+        "b": 80,
+        "c": 3,
+        "statistic": 69.5904,
+        "p_value": 0.0,
+        "significant": true,
+        "bonferroni_significant": true
+      },
+      "mean_tokens_standard": 112.4,
+      "mean_tokens_cot": 187.4,
+      "delta_tokens": 75.0,
+      "wilcoxon_stat": 183.5,
+      "wilcoxon_p": 0.0,
+      "token_cohen_d": 1.821
+    }
+  },
+  "triviaqa": {
+    "zero_shot_cot": {
+      "n_pairs": 150,
+      "accuracy_standard": 0.7267,
+      "accuracy_cot": 0.78,
+      "delta_accuracy": 0.0533,
+      "mcnemar": {
+        "b": 11,
+        "c": 3,
+        "statistic": 3.5,
+        "p_value": 0.061369,
+        "significant": false,
+        "bonferroni_significant": false
+      },
+      "mean_tokens_standard": 50.0,
+      "mean_tokens_cot": 183.3,
+      "delta_tokens": 133.3,
+      "wilcoxon_stat": 4.0,
+      "wilcoxon_p": 0.0,
+      "token_cohen_d": 3.076
+    },
+    "few_shot_cot": {
+      "n_pairs": 150,
+      "accuracy_standard": 0.7267,
+      "accuracy_cot": 0.74,
+      "delta_accuracy": 0.0133,
+      "mcnemar": {
+        "b": 6,
+        "c": 4,
+        "statistic": 0.1,
+        "p_value": 0.75183,
+        "significant": false,
+        "bonferroni_significant": false
+      },
+      "mean_tokens_standard": 50.0,
+      "mean_tokens_cot": 139.5,
+      "delta_tokens": 89.5,
+      "wilcoxon_stat": 0.0,
+      "wilcoxon_p": 0.0,
+      "token_cohen_d": 2.142
+    }
+  }
+}

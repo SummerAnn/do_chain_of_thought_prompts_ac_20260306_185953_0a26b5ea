@@ -1,13 +1,26 @@
 {
-  "success": false,
+  "success": true,
   "stages": {
     "resource_finder": {
-      "success": false,
-      "completion_marker": null,
-      "outputs": {},
+      "success": true,
+      "completion_marker": "/workspaces/do_chain_of_thought_prompts_ac_20260306_185953_0a26b5ea/.resource_finder_complete",
+      "outputs": {
+        "literature_review": "/workspaces/do_chain_of_thought_prompts_ac_20260306_185953_0a26b5ea/literature_review.md",
+        "resources_catalog": "/workspaces/do_chain_of_thought_prompts_ac_20260306_185953_0a26b5ea/resources.md",
+        "papers_dir": "/workspaces/do_chain_of_thought_prompts_ac_20260306_185953_0a26b5ea/papers",
+        "datasets_dir": "/workspaces/do_chain_of_thought_prompts_ac_20260306_185953_0a26b5ea/datasets",
+        "code_dir": "/workspaces/do_chain_of_thought_prompts_ac_20260306_185953_0a26b5ea/code"
+      },
       "log_file": "/workspaces/do_chain_of_thought_prompts_ac_20260306_185953_0a26b5ea/logs/resource_finder_claude.log",
       "transcript_file": "/workspaces/do_chain_of_thought_prompts_ac_20260306_185953_0a26b5ea/logs/resource_finder_claude_transcript.jsonl",
-      "elapsed_time": 14.846608400344849
+      "elapsed_time": 1523.5251791477203
+    },
+    "experiment_runner": {
+      "success": true,
+      "return_code": 0,
+      "elapsed_time": 6650.278221130371,
+      "log_file": "/workspaces/do_chain_of_thought_prompts_ac_20260306_185953_0a26b5ea/logs/execution_claude.log",
+      "transcript_file": "/workspaces/do_chain_of_thought_prompts_ac_20260306_185953_0a26b5ea/logs/execution_claude_transcript.jsonl"
     }
   },
   "work_dir": "/workspaces/do_chain_of_thought_prompts_ac_20260306_185953_0a26b5ea"

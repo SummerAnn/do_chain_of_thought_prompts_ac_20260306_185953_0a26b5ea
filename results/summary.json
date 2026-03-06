@@ -1,0 +1,82 @@
+{
+  "gsm8k": {
+    "standard": {
+      "n": 150,
+      "accuracy": 0.54,
+      "correct": 81,
+      "avg_output_tokens": 17.0
+    },
+    "zero_shot_cot": {
+      "n": 150,
+      "accuracy": 0.9467,
+      "correct": 142,
+      "avg_output_tokens": 203.5
+    },
+    "few_shot_cot": {
+      "n": 150,
+      "accuracy": 0.9467,
+      "correct": 142,
+      "avg_output_tokens": 146.3
+    }
+  },
+  "svamp": {
+    "standard": {
+      "n": 150,
+      "accuracy": 0.9,
+      "correct": 135,
+      "avg_output_tokens": 8.3
+    },
+    "zero_shot_cot": {
+      "n": 150,
+      "accuracy": 0.88,
+      "correct": 132,
+      "avg_output_tokens": 161.6
+    },
+    "few_shot_cot": {
+      "n": 150,
+      "accuracy": 0.9333,
+      "correct": 140,
+      "avg_output_tokens": 80.1
+    }
+  },
+  "commonsenseqa": {
+    "standard": {
+      "n": 150,
+      "accuracy": 0.3533,
+      "correct": 53,
+      "avg_output_tokens": 112.4
+    },
+    "zero_shot_cot": {
+      "n": 150,
+      "accuracy": 0.8067,
+      "correct": 121,
+      "avg_output_tokens": 242.0
+    },
+    "few_shot_cot": {
+      "n": 150,
+      "accuracy": 0.8667,
+      "correct": 130,
+      "avg_output_tokens": 187.4
+    }
+  },
+  "triviaqa": {
+    "standard": {
+      "n": 150,
+      "accuracy": 0.7267,
+      "correct": 109,
+      "avg_output_tokens": 50.0
+    },
+    "zero_shot_cot": {
+      "n": 150,
+      "accuracy": 0.78,
+      "correct": 117,
+      "avg_output_tokens": 183.3
+    },
+    "few_shot_cot": {
+      "n": 150,
+      "accuracy": 0.74,
+      "correct": 111,
+      "avg_output_tokens": 139.5
+    }
+  }
+}

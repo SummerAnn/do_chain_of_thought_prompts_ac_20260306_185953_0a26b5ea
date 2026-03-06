@@ -1,0 +1,25 @@
+Resource finding phase completed successfully.
+Timestamp: 2026-03-06T19:38:00
+Papers downloaded: 8
+Datasets downloaded: 4
+Repositories cloned: 2
+
+Papers:
+- 2201.11903_wei2022_chain_of_thought.pdf (Wei et al. 2022 - foundational CoT paper)
+- 2205.11916_kojima2022_zero_shot_reasoners.pdf (Kojima et al. 2022 - zero-shot CoT)
+- 2203.11171_wang2022_self_consistency.pdf (Wang et al. 2022 - self-consistency)
+- 2205.10625_zhou2022_least_to_most.pdf (Zhou et al. 2022 - least-to-most prompting)
+- 2502.18600_xu2025_chain_of_draft.pdf (Xu et al. 2025 - Chain of Draft, verbosity analysis)
+- 2502.12289_survey_evaluating_reasoning_traces.pdf (Survey 2025)
+- 2103.07191_patel2021_svamp.pdf (Patel et al. 2021 - SVAMP benchmark)
+- 2109.01652_ho2022_large_language_models_trained.pdf (Ho et al. 2022 - CoT distillation)
+
+Datasets:
+- datasets/gsm8k/ - GSM8K (8,792 examples: multi-step arithmetic, PRIMARY benchmark)
+- datasets/svamp/ - SVAMP (1,000 examples: arithmetic reasoning depth test)
+- datasets/commonsenseqa/ - CommonsenseQA (12,102 examples: commonsense MCQ)
+- datasets/triviaqa/ - TriviaQA (5,000 sample: single-step factual recall CONTROL)
+
+Repositories:
+- code/chain-of-thought-hub/ - LLM CoT benchmarking suite
+- code/chain-of-draft/ - Standard vs CoT vs CoD comparison framework (MOST USEFUL)
