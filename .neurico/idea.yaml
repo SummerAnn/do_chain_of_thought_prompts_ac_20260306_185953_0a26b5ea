@@ -1,0 +1,31 @@
+idea:
+  title: Do Chain-of-Thought Prompts Actually Improve Accuracy or Just Verbosity?
+  domain: machine_learning
+  hypothesis: Chain-of-thought prompting improves accuracy primarily on multi-step
+    arithmetic and logic tasks but shows no significant improvement on single-step
+    factual recall, while consistently increasing output length
+  background:
+    description: Chain-of-thought (CoT) is widely used but its benefits may be task-dependent.
+      Separating genuine reasoning improvement from increased verbosity would help
+      practitioners decide when CoT is worth the extra tokens.
+  methodology:
+    approach: Compare standard vs CoT prompting across task categories, measuring
+      both accuracy and output characteristics
+    steps:
+    - 'Curate tasks across 4 categories: arithmetic, logic, factual recall, commonsense'
+    - Run each task with standard and CoT prompting on 3 models
+    - Measure accuracy delta, token count, and reasoning step quality
+    - Statistical analysis of accuracy improvement vs task type interaction
+    baselines:
+    - Standard zero-shot prompting
+    - Few-shot prompting without CoT
+    metrics:
+    - Accuracy delta (CoT vs standard) per task category
+    - Token efficiency (accuracy gain per additional token)
+    - Reasoning step validity rate
+  metadata:
+    idea_id: do_chain_of_thought_prompts_ac_20260306_185953_0a26b5ea
+    created_at: '2026-03-06T18:59:53.136630'
+    status: submitted
+    github_repo_name: do_chain_of_thought_prompts_ac_20260306_185953_0a26b5ea
+    github_repo_url: https://github.com/SummerAnn/do_chain_of_thought_prompts_ac_20260306_185953_0a26b5ea
